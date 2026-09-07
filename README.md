@@ -16,7 +16,7 @@ Bài thực hành này giúp các thành viên làm quen với quy trình làm v
 
 ---
 
-# 1. Clone repository
+## 1. Clone repository
 
 Clone repository về máy:
 
@@ -38,7 +38,7 @@ git status
 
 ---
 
-# 2. Tạo branch riêng
+## 2. Tạo branch riêng
 
 Mỗi thành viên phải tạo **một branch riêng theo tên của mình**.
 
@@ -73,7 +73,7 @@ Ví dụ:
 
 ---
 
-# 3. Tạo Merge Conflict
+## 3. Tạo Merge Conflict
 
 ## ⚠️ QUAN TRỌNG
 
@@ -107,13 +107,13 @@ và thành viên còn lại:
 CONFLICT_AREA: Tran Van B - 654321
 ```
 
-### ❗ Không được sửa dòng `CONFLICT_AREA` thành các dòng khác.
+### ❗ Không được sửa dòng `CONFLICT_AREA` thành các dòng khác
 
 Mục đích là để hai branch cùng thay đổi **một vị trí trong cùng một file**, từ đó tạo ra Merge Conflict.
 
 ---
 
-# 4. Commit thay đổi
+## 4. Commit thay đổi
 
 Sau khi chỉnh sửa README:
 
@@ -140,7 +140,7 @@ git commit -m "test: create merge conflict"
 
 ---
 
-# 5. Push branch lên GitHub
+## 5. Push branch lên GitHub
 
 Push branch:
 
@@ -156,7 +156,7 @@ git push -u origin nguyen-van-a
 
 ---
 
-# 6. Tạo Pull Request
+## 6. Tạo Pull Request
 
 Sau khi push branch lên GitHub:
 
@@ -169,17 +169,17 @@ Sau khi push branch lên GitHub:
 test: practice merge conflict
 ```
 
-5. Trong phần **Reviewers**, thêm:
+1. Trong phần **Reviewers**, thêm:
 
 ```text
 Crabbercat
 ```
 
-6. Tạo Pull Request.
+1. Tạo Pull Request.
 
 ---
 
-# 7. KHÔNG tự resolve conflict
+## 7. KHÔNG tự resolve conflict
 
 Sau khi tạo Pull Request:
 
@@ -199,7 +199,7 @@ Hãy để Pull Request ở trạng thái hiện tại để thành viên phụ 
 
 ---
 
-# 8. Quy trình xử lý của người phụ trách
+## 8. Quy trình xử lý của người phụ trách
 
 Người phụ trách sẽ thực hiện:
 
@@ -240,7 +240,7 @@ Sau khi conflict được resolve, người phụ trách sẽ hoàn tất Pull R
 
 ---
 
-# 9. Kết quả mong muốn
+## 9. Kết quả mong muốn
 
 Sau bài thực hành, repository phải thể hiện được:
 
@@ -276,19 +276,19 @@ Merge
 
 ## 📌 Quy tắc
 
-| Quy tắc                        | Yêu cầu                       |
-| ------------------------------ | ----------------------------- |
-| Làm việc trên `main`           | ❌ Không                       |
-| Tạo branch riêng               | ✅ Bắt buộc                    |
-| Sửa `README.md`                | ✅ Bắt buộc                    |
-| Sửa dòng `CONFLICT_AREA`       | ✅ Bắt buộc                    |
-| Commit message                 | `test: create merge conflict` |
-| Push lên GitHub                | ✅ Bắt buộc                    |
-| Tạo Pull Request               | ✅ Bắt buộc                    |
-| Thêm `Crabbercat` làm Reviewer | ✅ Bắt buộc                    |
-| Tự resolve conflict            | ❌ Không                       |
-| Tự merge PR                    | ❌ Không                       |
-| Sửa các phần khác của README   | ❌ Không                       |
+| Quy tắc | Yêu cầu |
+| --- | --- |
+| Làm việc trên `main` | ❌ Không |
+| Tạo branch riêng | ✅ Bắt buộc |
+| Sửa `README.md` | ✅ Bắt buộc |
+| Sửa dòng `CONFLICT_AREA` | ✅ Bắt buộc |
+| Commit message | `test: create merge conflict` |
+| Push lên GitHub | ✅ Bắt buộc |
+| Tạo Pull Request | ✅ Bắt buộc |
+| Thêm `Crabbercat` làm Reviewer | ✅ Bắt buộc |
+| Tự resolve conflict | ❌ Không |
+| Tự merge PR | ❌ Không |
+| Sửa các phần khác của README | ❌ Không |
 
 ---
 
