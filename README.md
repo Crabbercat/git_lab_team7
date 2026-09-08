@@ -1,2 +1,1 @@
-# git_lab_team7
-hello
+CONFLICT_AREA: Nguyen Xuan Tam - 102230266
