@@ -86,6 +86,7 @@ Cả hai phải sửa **cùng một dòng bên dưới**.
 Thay đổi dòng sau:
 
 ```text
+CONFLICT_AREA: HuỳnhPhướcMạnh - sv1022230253
 CONFLICT_AREA: Nguyễn Xuân Tâm - 1022230266
 ```
 
