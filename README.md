@@ -86,7 +86,7 @@ Cả hai phải sửa **cùng một dòng bên dưới**.
 Thay đổi dòng sau:
 
 ```text
-CONFLICT_AREA: Huỳnh Phước Mạnh - 1022230253
+CONFLICT_AREA: HuỳnhPhướcMạnh - sv1022230253
 ```
 
 Mỗi thành viên thay `YOUR_NAME - YOUR_STUDENT_ID` bằng:
